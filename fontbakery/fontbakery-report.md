@@ -95,7 +95,7 @@ These won't break the CI job for now, but will become effective after some time 
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ꙃ, Ҁ, џ, ꙃ, Џ, ҁ</td>
+<td align="left">The following base characters are missing from the font: ҁ, Ꙃ, ꙃ, Џ, Ҁ, џ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 <tr>
@@ -159,7 +159,7 @@ These won't break the CI job for now, but will become effective after some time 
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following mark characters are missing from the font: ̨, ̌</td>
+<td align="left">The following mark characters are missing from the font: ̌, ̨</td>
 <td align="left">lt_Latn (Lithuanian)</td>
 </tr>
 <tr>
@@ -187,7 +187,7 @@ These won't break the CI job for now, but will become effective after some time 
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: ș, Ș, ț, Ț</td>
+<td align="left">The following base characters are missing from the font: ț, Ț, ș, Ș</td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -199,7 +199,7 @@ These won't break the CI job for now, but will become effective after some time 
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following mark characters are missing from the font: ̦, ̧</td>
+<td align="left">The following mark characters are missing from the font: ̧, ̦</td>
 <td align="left">tr_Latn (Turkish)</td>
 </tr>
 </tbody>
@@ -856,7 +856,7 @@ less, greater</p>
 <p>Width = 378:
 minus</p>
 <p>Width = 649:
-similar, uni223E, uni223B, uni223D</p>
+uni223D, uni223B, similar, uni223E</p>
  [code: width-outliers]
 
 
@@ -917,10 +917,10 @@ subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
 <li>U+007F : try adding symbols</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: gothic, math, glagolitic, elbasan, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, elbasan, glagolitic, math, gothic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: todhri, canadian-aboriginal, math, syriac, coptic, duployan, hebrew, old-permic, tai-le, malayalam, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, canadian-aboriginal, malayalam, tai-le, tifinagh, hebrew, math, duployan, syriac, old-permic, todhri</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
@@ -939,18 +939,18 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: modi, chakma, dogra, avestan, syriac, kayah-li, mahajani, new-tai-lue, hanunoo, duployan, brahmi, khojki, manichaean, myanmar, oriya, sharada, syloti-nagri, thaana, hatran, gurmukhi, meetei-mayek, tai-viet, siddham, cham, khmer, lepcha, masaram-gondi, zanabazar-square, tagalog, kannada, batak, bhaiksuki, devanagari, limbu, buhid, bengali, tifinagh, takri, phags-pa, buginese, tamil, mongolian, nko, grantha, tagbanwa, kharoshthi, khudawadi, sundanese, hebrew, rejang, tai-le, newa, gujarati, tirhuta, tibetan, gunjala-gondi, balinese, kaithi, malayalam, lao, pahawh-hmong, thai, psalter-pahlavi, arabic, warang-citi, hanifi-rohingya, telugu, sogdian, mandaic, saurashtra, sinhala, tai-tham, yi, javanese</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: old-hungarian, modi, chakma, dogra, avestan, syriac, kayah-li, mahajani, new-tai-lue, hanunoo, duployan, brahmi, khojki, manichaean, myanmar, oriya, sharada, syloti-nagri, thaana, gurmukhi, meetei-mayek, tai-viet, siddham, cham, khmer, lepcha, masaram-gondi, zanabazar-square, tagalog, kannada, batak, bhaiksuki, devanagari, limbu, buhid, bengali, tifinagh, takri, phags-pa, buginese, tamil, mongolian, nko, grantha, tagbanwa, kharoshthi, khudawadi, sundanese, hebrew, rejang, tai-le, newa, gujarati, tirhuta, tibetan, gunjala-gondi, balinese, kaithi, malayalam, lao, pahawh-hmong, thai, psalter-pahlavi, arabic, warang-citi, hanifi-rohingya, telugu, sogdian, mandaic, saurashtra, sinhala, tai-tham, yi, javanese</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, nko, arabic, syriac, hebrew, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, nko, syriac, hebrew, thaana</li>
-<li>U+2010 HYPHEN: try adding one of: armenian, yi, sora-sompeng, arabic, cham, kayah-li, kharoshthi, sundanese, hebrew, coptic, lisu, syloti-nagri, kaithi</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: lao, lepcha, tai-tham, brahmi, tagalog, warang-citi, kharoshthi, khmer, hanifi-rohingya, syriac, devanagari, rejang, sundanese, manichaean, telugu, syloti-nagri, arabic, sinhala, dogra, meetei-mayek, limbu, mongolian, new-tai-lue, tai-le, kaithi, hebrew, gunjala-gondi, bengali, newa, buginese, masaram-gondi, cham, grantha, gurmukhi, hatran, balinese, javanese, mandaic, hanunoo, bhaiksuki, chakma, malayalam, psalter-pahlavi, nko, sharada, sogdian, thai, tifinagh, thaana, zanabazar-square, avestan, khudawadi, phags-pa, modi, mahajani, tirhuta, khojki, kannada, batak, oriya, gujarati, tai-viet, takri, yi, tibetan, buhid, saurashtra, tagbanwa, kayah-li, duployan, myanmar, pahawh-hmong, siddham, tamil</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: lao, lepcha, tai-tham, brahmi, tagalog, warang-citi, kharoshthi, khmer, hanifi-rohingya, syriac, devanagari, rejang, sundanese, manichaean, telugu, syloti-nagri, arabic, sinhala, dogra, meetei-mayek, limbu, mongolian, new-tai-lue, tai-le, kaithi, hebrew, gunjala-gondi, bengali, newa, buginese, masaram-gondi, cham, grantha, gurmukhi, balinese, javanese, mandaic, hanunoo, bhaiksuki, chakma, malayalam, psalter-pahlavi, nko, sharada, sogdian, thai, tifinagh, thaana, zanabazar-square, avestan, siddham, khudawadi, phags-pa, modi, mahajani, tirhuta, khojki, kannada, batak, oriya, gujarati, tai-viet, takri, yi, tibetan, buhid, saurashtra, tagbanwa, kayah-li, duployan, myanmar, old-hungarian, pahawh-hmong, tamil</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, hebrew, syriac, thaana, phags-pa</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, hebrew, syriac, thaana, phags-pa</li>
+<li>U+2010 HYPHEN: try adding one of: armenian, coptic, arabic, lisu, syloti-nagri, yi, kaithi, hebrew, kayah-li, kharoshthi, cham, sora-sompeng, sundanese</li>
 <li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2024 ONE DOT LEADER: try adding armenian</li>
 <li>U+2025 TWO DOT LEADER: try adding phags-pa</li>
 <li>U+2027 HYPHENATION POINT: not included in any glyphset definition</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, phags-pa, mongolian</li>
 <li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
 <li>U+2060 WORD JOINER: not included in any glyphset definition</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
@@ -959,7 +959,7 @@ definitions.</p>
 <li>U+223C TILDE OPERATOR: try adding math</li>
 <li>U+223D REVERSED TILDE: try adding math</li>
 <li>U+223E INVERTED LAZY S: try adding math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: mahajani, mende-kikakui, old-permic, sharada, syloti-nagri, canadian-aboriginal, gurmukhi, tagalog, bhaiksuki, devanagari, tifinagh, bengali, buginese, khudawadi, sundanese, gujarati, tibetan, sogdian, tai-tham, javanese, dogra, syriac, music, thaana, myanmar, soyombo, meetei-mayek, khmer, masaram-gondi, batak, limbu, tirhuta, tamil, osage, tagbanwa, coptic, rejang, newa, kaithi, bassa-vah, psalter-pahlavi, marchen, warang-citi, kayah-li, new-tai-lue, duployan, oriya, ahom, wancho, phags-pa, nko, grantha, symbols, caucasian-albanian, tai-le, balinese, pahawh-hmong, lao, elbasan, adlam, hanifi-rohingya, mandaic, saurashtra, sinhala, modi, armenian, chakma, hanunoo, brahmi, khojki, manichaean, tai-viet, siddham, cham, lepcha, zanabazar-square, kannada, buhid, takri, math, mongolian, kharoshthi, hebrew, gunjala-gondi, malayalam, thai, telugu, miao, yi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tai-tham, brahmi, khmer, osage, sundanese, tai-le, kaithi, newa, buginese, cham, gurmukhi, hanunoo, takri, kannada, batak, oriya, tai-viet, saurashtra, wancho, siddham, bassa-vah, lao, mende-kikakui, kharoshthi, syriac, devanagari, rejang, manichaean, mongolian, limbu, math, armenian, coptic, javanese, music, bhaiksuki, chakma, sogdian, thaana, zanabazar-square, miao, yi, hanifi-rohingya, old-permic, telugu, new-tai-lue, hebrew, masaram-gondi, grantha, ahom, psalter-pahlavi, tifinagh, khudawadi, tirhuta, adlam, mahajani, khojki, tibetan, pahawh-hmong, myanmar, lepcha, caucasian-albanian, canadian-aboriginal, tagalog, warang-citi, syloti-nagri, sinhala, dogra, elbasan, meetei-mayek, soyombo, gunjala-gondi, bengali, symbols, balinese, mandaic, marchen, malayalam, nko, sharada, thai, phags-pa, modi, gujarati, buhid, tagbanwa, kayah-li, duployan, tamil</li>
 <li>U+25EF LARGE CIRCLE: try adding symbols</li>
 <li>U+2626 ORTHODOX CROSS: try adding symbols</li>
 <li>U+2720 MALTESE CROSS: try adding symbols</li>
