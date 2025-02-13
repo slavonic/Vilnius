@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb" format="2">
+  <advance width="0"/>
+  <unicode hex="0301"/>
+  <anchor x="-208" y="621" name="_Stacking"/>
+  <anchor x="-162" y="983" name="Stacking"/>
+  <anchor x="-206" y="622" name="_Diacritic"/>
+  <outline>
+    <contour>
+      <point x="-41" y="921" type="line"/>
+      <point x="27" y="938" type="line"/>
+      <point x="35" y="933" type="line"/>
+      <point x="-157" y="639" type="line"/>
+      <point x="-225" y="622" type="line"/>
+      <point x="-233" y="627" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>622</integer>
+            <key>width</key>
+            <integer>316</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-233</integer>
+            <key>width</key>
+            <integer>268</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

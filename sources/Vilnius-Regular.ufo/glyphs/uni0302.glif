@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0302" format="2">
+  <advance width="0"/>
+  <unicode hex="0302"/>
+  <anchor x="-210" y="678" name="_Stacking"/>
+  <anchor x="-224" y="870" name="Stacking"/>
+  <anchor x="-213" y="678" name="_Diacritic"/>
+  <outline>
+    <contour>
+      <point x="-69" y="704" type="curve"/>
+      <point x="-85" y="679" type="line"/>
+      <point x="-113" y="690.333"/>
+      <point x="-154" y="711"/>
+      <point x="-208" y="741" type="curve"/>
+      <point x="-264" y="710.333"/>
+      <point x="-304.667" y="689.667"/>
+      <point x="-330" y="679" type="curve"/>
+      <point x="-346" y="704" type="line"/>
+      <point x="-286" y="751.333"/>
+      <point x="-243.667" y="788"/>
+      <point x="-219" y="814" type="curve"/>
+      <point x="-196" y="814" type="line"/>
+      <point x="-171.333" y="788"/>
+      <point x="-129" y="751.333"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>679</integer>
+            <key>width</key>
+            <integer>135</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-346</integer>
+            <key>width</key>
+            <integer>277</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
