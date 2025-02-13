@@ -16,15 +16,15 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "fonts/ttf/RadioCanadaDisplay-Regular.ttf"
+FONT_PATH = "fonts/otf/Vilnius-Regular.otf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 
-LINE_ONE = "ABCDEFGHIJKLMNOPQ"
-LINE_TWO = "RSTUVWXYZ123456789"
-LINE_THREE = "abcdefghijklmnopqrstu"
-LINE_FOUR = "vwxyz,.;:!@#$%^&*(){}[]"
+LINE_ONE = "Выⷣрꙋкᲂвана сїа кни́га"
+LINE_TWO = "   в̾лѣтᲂ ѿ съзⷣанїѧ ми́ра"
+LINE_THREE = "҂ꙁ҃ч҃ае , з̾дрꙋка́рни"
+LINE_FOUR = "      до́мꙋ мамоничᲂвъ ."
 BIG_TEXT_FONT_SIZE = 160
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.45
