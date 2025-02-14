@@ -9,8 +9,7 @@ Vilnius is a typeface designed to mimic the fonts used by the Mamonichi Press in
 Vilnius is based on Ostrog, designed by [Vlad Dorosh](http://irmologion.ru/fonts.html#Ostrog).
 It was reencoded for Unicode by Aleksandr Andreev as part of the
 [Slavonic Computing Initiative](https://sci.ponomar.net/fonts.html)
-and edited, released under SIL OFL v. 1.1 and distributed as Vilnius.
-Further edited by Aleksandr Andreev and Nikita Simmons.
+and edited by Nikita Simmons, released under SIL OFL v. 1.1 and distributed as Vilnius.
 
 ## License
 
@@ -60,13 +59,15 @@ for some reason.
 
 * The font provides a number of ligatures, which are made by inserting the Zero Width Joiner (U+200D) between two characters.
 
+* Stylistic Set 10 (“Equal Baseline Variants”) sets the capital letters on the same baseline as the lowercase letters (useful for working
+with the font in an academic context where the traditionally lowered baseline of uppercase letters can cause vertical spacing issues when working with text that is both in Latin and Cyrillic scripts). 
+
 * Stylistic Alternatives (*salt*) are provided for the following characters:
-- alternative form of U+0404 Capital Ukrainian Ye
 - alternative form of U+0426 Capital Tse
-- lower truncated forms of U+0440 re, U+0444 ef, U+0445 khe, U+0446 tse, U+0449 shche, U+0463 yat, U+0471 psi, U+A641 zelo
-- alternative forms of U+047E Omega and U+047C Ot
-- various accented forms of U+047E yat and U+A64B Uk
-- this section needs to be fixed
+- lower truncated forms of U+0434 de, U+0440 re, U+0443 u, U+0444 ef, U+0445 khe, U+0446 tse, U+0449 shche, U+0463 yat, U+0471 psi, U+A641 zelo
+- alternative form of U+0478 digraph uk
+- alternative form of U+1C88 variant uk
+- upper trunctated forms of U+A64B uk
 
 See your software's documentation about how to access these glyphs.
 
