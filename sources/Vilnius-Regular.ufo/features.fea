@@ -611,9 +611,9 @@ lookup markMarkPositioninglookup0 {
   pos base [\uniA66D ] <anchor 428 240> mark @Numeral
 	<anchor 444 643> mark @Diacritic
 	<anchor 726 643> mark @Yerok;
-  pos base [\uniA66E ] <anchor 538 240> mark @Numeral
-	<anchor 787 893> mark @Yerok
-	<anchor 601 895> mark @Diacritic;
+  pos base [\uniA66E ] <anchor 698 240> mark @Numeral
+	<anchor 947 893> mark @Yerok
+	<anchor 761 895> mark @Diacritic;
   pos base [\uniA698 ] <anchor 947 643> mark @Yerok
 	<anchor 571 645> mark @Diacritic;
   pos base [\uniA699 ] <anchor 398 240> mark @Numeral
