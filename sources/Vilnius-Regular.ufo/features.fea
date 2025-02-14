@@ -437,9 +437,9 @@ lookup markMarkPositioninglookup0 {
   pos base [\uni0440 ] <anchor 188 240> mark @Numeral
 	<anchor 214 643> mark @Diacritic
 	<anchor 213 643> mark @Yerok;
-  pos base [\uni0441 ] <anchor 128 240> mark @Numeral
-	<anchor 154 643> mark @Diacritic
-	<anchor 204 643> mark @Yerok;
+  pos base [\uni0441 ] <anchor 224 643> mark @Yerok
+	<anchor 204 613> mark @Diacritic
+	<anchor 128 240> mark @Numeral;
   pos base [\uni0422 ] <anchor 621 643> mark @Yerok
 	<anchor 365 645> mark @Diacritic;
   pos base [\uni0442 ] <anchor 308 240> mark @Numeral
@@ -659,9 +659,9 @@ lookup markMarkPositioninglookup0 {
   pos base [\uni0443.salt ] <anchor 238 240> mark @Numeral
 	<anchor 265 643> mark @Diacritic
 	<anchor 385 644> mark @Yerok;
-  pos base [\uni0471.salt ] <anchor 408 240> mark @Numeral
-	<anchor 185 643> mark @Diacritic
-	<anchor 665 644> mark @Yerok;
+  pos base [\uni0471.salt ] <anchor 445 743> mark @Diacritic
+	<anchor 665 644> mark @Yerok
+	<anchor 408 240> mark @Numeral;
   pos base [\uni0471.salt2 ] <anchor 408 240> mark @Numeral
 	<anchor 195 643> mark @Diacritic
 	<anchor 685 644> mark @Yerok;

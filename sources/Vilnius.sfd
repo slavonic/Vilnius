@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1739434646
+ModificationTime: 1739519561
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,7 +58,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 27 8
+WinInfo: 513 27 8
 BeginPrivate: 5
 BlueValues 30 [-9 0 435 444 519 528 740 749]
 OtherBlues 11 [-464 -455]
@@ -4152,9 +4152,9 @@ Width: 285
 Flags: W
 HStem: 425 20G<203.5 233>
 VStem: 55 99<133.962 296.274>
+AnchorPoint: "Yerok" 224 643 basechar 0
+AnchorPoint: "Diacritic" 203.924 613.122 basechar 0
 AnchorPoint: "Numeral" 128 240 basechar 0
-AnchorPoint: "Diacritic" 153.924 643.122 basechar 0
-AnchorPoint: "Yerok" 204 643 basechar 0
 LayerCount: 3
 Back
 SplineSet
@@ -4194,7 +4194,6 @@ SplineSet
  219 107 215 81 205 45 c 1
  183 28 156 12 130 0 c 0
 EndSplineSet
-Validated: 1
 Colour: ffff
 EndChar
 
@@ -37057,10 +37056,9 @@ Encoding: 57581 57581 592
 Width: 791
 Flags: W
 VStem: 362.007 60.021<-296.756 -16.8305>
-DStem2: 414.01 -300 417.008 -335.999 0.77229 0.635271<0 67.7578> 528.006 715.999 488.005 662.998 0.907018 0.421092<-228.58 -191.089 -63.1357 -1.41021>
-AnchorPoint: "Numeral" 408 240 basechar 0
-AnchorPoint: "Diacritic" 185 642.998 basechar 0
+AnchorPoint: "Diacritic" 445 742.998 basechar 0
 AnchorPoint: "Yerok" 665 644 basechar 0
+AnchorPoint: "Numeral" 408 240 basechar 0
 LayerCount: 3
 Back
 SplineSet
@@ -37140,7 +37138,7 @@ SplineSet
  480.129435396 146.299782924 455.666625977 51 451.001 2.99902 c 0
  450.587375244 -1.2564419121 449.003 -4.9421 448.999 -10.332 c 1
  439.011 -13.999 l 1
- 433.038408114 -74.4714928495 428.122889191 -130.651495496 422.011 -192.999 c 4
+ 433.038408114 -74.4714928495 428.122889191 -130.651495496 422.011 -192.999 c 0
  422.022 -193.038 422.028 -193.147 422.028 -193.327 c 0
  422.028 -197.143 419.355 -232.7 414.01 -300 c 1
  445.01 -274.5 l 2
@@ -37149,7 +37147,6 @@ SplineSet
  463.047 -297.829 441.092 -317.076 417.008 -335.999 c 1
  411.921 -336.138 407.197 -336.207 402.837 -336.207 c 0
 EndSplineSet
-Validated: 1
 Colour: ffff
 EndChar
 
